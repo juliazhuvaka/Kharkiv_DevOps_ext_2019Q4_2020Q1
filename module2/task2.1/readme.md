@@ -5,14 +5,14 @@ Launched in 2008, Microsoft Hyper-V helps in expanding or establishing a private
 
 1. Microsoft Hyper-V server virtualizationFeatures of Microsoft Hyper-V for Windows Server 2019:
 
-*Persistent memory support.
-*Shielded VM updates.
-*Simple Two-Node clusters.
-*ReFS Deduplication.
-*Storage Spaces Direct improvements.
-*Windows Admin Center.
-*Encrypted subnets.
-*For further details about Hyper-V, you can read this PDF.
+* Persistent memory support.
+* Shielded VM updates.
+* Simple Two-Node clusters.
+* ReFS Deduplication.
+* Storage Spaces Direct improvements.
+* Windows Admin Center.
+* Encrypted subnets.
+* For further details about Hyper-V, you can read this PDF.
 
 2. KVM
 KVM (Kernel-based Virtual Machine), a part of Red Hat Virtualization Suite, is a complete virtualization infrastructure solution. KVM turns Linux kernel into a hypervisor. It was merged into the Linux kernel mainline in kernel version 2.6.20.
