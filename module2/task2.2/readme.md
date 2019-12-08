@@ -52,24 +52,24 @@
 
 ## Task 2.2. Part 2. Vagrant
 
-First of all I have installed Vargrant, created dirrectory zhuvakajulia and init hashicorp/precise64 as a default
+### First of all I have installed Vargrant, created dirrectory zhuvakajulia and init hashicorp/precise64 as a default
 ![photo_2019-12-04_12-56-01](https://user-images.githubusercontent.com/58468159/70391096-1723ab80-19da-11ea-821c-c2f87271ffd5.jpg)
 ![photo_2019-12-08_16-44-31](https://user-images.githubusercontent.com/58468159/70391099-1db22300-19da-11ea-8445-a9ec4b2a7eed.jpg)
 
-After that I have executed vagrant up command
+### After that I have executed vagrant up command
 ![photo_2019-12-08_16-47-32](https://user-images.githubusercontent.com/58468159/70391127-7681bb80-19da-11ea-8c5e-0b68d2053107.jpg)
 
-Than I have connected to VM using putty (login – vagrant, password - vagrant) and executed date command
+### Than I have connected to VM using putty (login – vagrant, password - vagrant) and executed date command
 ![photo_2019-12-08_16-48-54](https://user-images.githubusercontent.com/58468159/70391144-a335d300-19da-11ea-9826-831f134bdf2a.jpg)
 
-Next step was to halt and destroy current VM
+### Next step was to halt and destroy current VM
 ![photo_2019-12-08_16-50-40](https://user-images.githubusercontent.com/58468159/70391171-e1cb8d80-19da-11ea-9399-5b6dbd2bc8f5.jpg)
 
-More challenging task was to create Multiple VMs using Vagrantfile
+### More challenging task was to create Multiple VMs using Vagrantfile
 ![photo_2019-12-08_16-52-26](https://user-images.githubusercontent.com/58468159/70391205-2bb47380-19db-11ea-9d79-19f466e70f8a.jpg)
 ![photo_2019-12-08_16-52-32](https://user-images.githubusercontent.com/58468159/70391206-2bb47380-19db-11ea-9688-d6b8cdaaa38c.jpg)
 
-And the last step - choose and instal Vagrant box. I have chosen Official_Ubuntu_11.10_Server_amd64 from http://www.vagrantbox.es/
+### And the last step - choose and install Vagrant box. I have chosen Official_Ubuntu_11.10_Server_amd64 from http://www.vagrantbox.es/
 
 ![photo_2019-12-08_16-53-43](https://user-images.githubusercontent.com/58468159/70391218-4f77b980-19db-11ea-9680-63ba43618038.jpg)
 
