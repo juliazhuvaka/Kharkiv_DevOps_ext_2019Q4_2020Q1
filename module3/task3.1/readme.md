@@ -30,6 +30,7 @@ It is necessary to simulate the local network of a complex of 5 one-story buildi
 I have created group not 5, but 3 buildings with 2 computers in each (to start with simple)
 
 After basic configuration of IP and gateways, I have created VLAN groups for each computer and configured FastEthernet ports (for each computer as well)
+
 ![photo_2019-12-15_13-51-24](https://user-images.githubusercontent.com/58468159/70867286-840be800-1f7c-11ea-82bd-c385e6091f2d.jpg)
 
 
