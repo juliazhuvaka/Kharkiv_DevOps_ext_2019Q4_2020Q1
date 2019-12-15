@@ -17,7 +17,7 @@ Below you can find video with a result
 
 
 
-Next and last step was to deny traffic beetween the first and third floors, I have done it using extendet access-lіst command
+Next and last step was to deny traffic beetween the first and third floors, I have done it using extendet access-lіst command on router
 
 Below there is a video with the result
 
@@ -46,7 +46,7 @@ On video below you can see working network (all-to-all traffic)
 
 [![Watch the video](https://i9.ytimg.com/vi/hXEyvf8jAX8/mq2.jpg?sqp=CJSD2u8F&rs=AOn4CLCENBfO13_so9KP5YAWZ90MxuuunA)](https://youtu.be/RltzGA-_9bU)
 
-Next and last step was to deny traffic beetween the first and third houses, I have done it using extendet access-lіst command
+Next and last step was to deny traffic beetween the first and third houses, I have done it using extendet access-lіst command on router
 
 
 [![Watch the video](https://i9.ytimg.com/vi/hXEyvf8jAX8/mq2.jpg?sqp=CJSD2u8F&rs=AOn4CLCENBfO13_so9KP5YAWZ90MxuuunA)](https://youtu.be/hXEyvf8jAX8)
