@@ -20,7 +20,7 @@ Below you can find video with a result
 Next and last step was to deny traffic beetween the first and third floors, I have done it using extendet access-lіst command
 
 Below there is a video with the result
-https://youtu.be/gxxKpWPAqZA
+
 
 [![Watch the video](https://user-images.githubusercontent.com/58468159/70851998-e396c480-1ea4-11ea-9c95-c045c7e1c95a.jpg)](https://youtu.be/gxxKpWPAqZA)
 
