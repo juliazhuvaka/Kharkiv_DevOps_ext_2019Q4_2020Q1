@@ -1,6 +1,6 @@
-Task 3.1
+## Task 3.1
 
-Part 1
+### Part 1
 According to a task I have to simulate the local network of the organization, which contains 1 house with four floors. The horizontal subsystem of the floor consists of two working groups of 3 and 5 computers, respectively.
 Structure the network into 8 subnets and deny traffic between the first and third floors.
 
@@ -25,7 +25,7 @@ https://youtu.be/gxxKpWPAqZA
 [![Watch the video](https://user-images.githubusercontent.com/58468159/70851998-e396c480-1ea4-11ea-9c95-c045c7e1c95a.jpg)](https://youtu.be/gxxKpWPAqZA)
 
 
-Part 2
+### Part 2
 It is necessary to simulate the local network of a complex of 5 one-story buildings, consisting of 5 working groups of 6 computers. The network is based on a single port router. Deny traffic between building 1 and 5.
 I have created group not 5, but 3 buildings with 2 computers in each (to start with simple)
 
@@ -34,6 +34,7 @@ After basic configuration of IP and gateways, I have created VLAN groups for eac
 
 
 Than I have enabled trunk port, using CLI
+
 ![photo_2019-12-15_14-06-53](https://user-images.githubusercontent.com/58468159/70867321-dd741700-1f7c-11ea-8c6b-279e1cd7a9d2.jpg)
 
 And the last step of configuration was central switch ports connection
