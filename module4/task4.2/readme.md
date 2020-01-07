@@ -1,12 +1,12 @@
-Task 4.2. Scripts
+## Task 4.2. Scripts
 
-Script 1.
-The first task is to create a file, which contains system services, in table format with width 1024
+### Script 1.
+### The first task is to create a file, which contains system services, in table format with width 1024
 
 ![photo_2020-01-07_16-01-28](https://user-images.githubusercontent.com/58468159/71900706-fda38a00-3166-11ea-983f-5b7132cca351.jpg)
 
-Script 2.
-Next task is to create an array and show it in a matrix format
+#### Script 2.
+#### Next task is to create an array and show it in a matrix format
 
 ![photo_2020-01-05_13-50-39](https://user-images.githubusercontent.com/58468159/71900966-95a17380-3167-11ea-96ee-277dc5f887ec.jpg)
 
