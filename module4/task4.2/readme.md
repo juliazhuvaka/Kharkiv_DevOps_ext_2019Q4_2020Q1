@@ -52,10 +52,6 @@
 ### Script 8. 
 ### Script #8 should recursive count all directories in the root directory and show a message with the number of folders and show the name of the directory where we have counted them
 
-![photo_2020-01-05_21-30-19](https://user-images.githubusercontent.com/58468159/71902540-f7afa800-316a-11ea-8ed3-492a16584537.jpg)
-
-![photo_2020-01-05_21-29-56](https://user-images.githubusercontent.com/58468159/71902539-f7afa800-316a-11ea-83ed-aa6765dfe166.jpg)
-
 
 ![image](https://user-images.githubusercontent.com/58468159/72610550-5bd32880-3930-11ea-9961-a43b1ac41240.png)
 
