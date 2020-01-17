@@ -44,10 +44,12 @@
 
 
 ### 6. In task #6 I have to create a network folder, with a limit of users, who can use this folder. As well, this folder should be created automatically at the beginning of the day and destroy itself after a day has ended
-### For auto-creation, we can use windows task planner, and for deleting I have used key -Temporary, which means deleting after reboot
+### For auto-creation, we can use windows task planner, and for deleting I have used LastWriteTime, which means deleting after time I have stated
 
 
-![photo_2020-01-09_22-42-05](https://user-images.githubusercontent.com/58468159/72205104-dd860a80-3487-11ea-90d5-2713f3680530.jpg)
+![image](https://user-images.githubusercontent.com/58468159/72614107-16b3f400-393a-11ea-878f-92c67ba6d2cd.png)
+
+
 ![photo_2020-01-09_22-42-41](https://user-images.githubusercontent.com/58468159/72205103-dced7400-3487-11ea-8f28-18c3a19ff167.jpg)
 
 
