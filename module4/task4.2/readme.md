@@ -68,9 +68,10 @@
 
 ### Using parameters, create a script, which asks the user to enter some numbers and then count them (a+b)/c
 
-![photo_2020-01-07_17-11-40](https://user-images.githubusercontent.com/58468159/71905561-1153ee00-3171-11ea-8de0-4239a089d185.jpg)
 
-![photo_2020-01-07_17-12-11](https://user-images.githubusercontent.com/58468159/71905562-1153ee00-3171-11ea-8162-8ecd05c91dc6.jpg)
+![image](https://user-images.githubusercontent.com/58468159/72611598-2e3bae80-3933-11ea-96ce-3bb8cbf5bc51.png)
+
+
 
 ### Script 11.
 
