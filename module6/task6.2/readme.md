@@ -4,8 +4,9 @@
 ![shell check](https://user-images.githubusercontent.com/58468159/73613621-66641200-4600-11ea-9f75-37ea5cec5f0c.jpg)
 
 ### Script #1. It should recursive all directories in the home directory and show a message with the number of folders and show names of these directories
-![script 1](https://user-images.githubusercontent.com/58468159/73613624-6bc15c80-4600-11ea-9406-c9e9b025506c.jpg)
-![1](https://user-images.githubusercontent.com/58468159/73613626-6d8b2000-4600-11ea-92e3-3d76ce0c39ae.jpg)
+![photo_2020-02-04_14-21-25](https://user-images.githubusercontent.com/58468159/73744544-aab6f580-4759-11ea-9eba-98aa072ecb75.jpg)
+![photo_2020-02-04_14-21-32](https://user-images.githubusercontent.com/58468159/73744545-aab6f580-4759-11ea-96da-bce8ee9a5d2a.jpg)
+
 
 ### Script #2. I have made a script, which reads a word from the screen and shows a number of letters in it
 ![script 2](https://user-images.githubusercontent.com/58468159/73613627-6fed7a00-4600-11ea-9fdf-0c8043f3689f.jpg)
