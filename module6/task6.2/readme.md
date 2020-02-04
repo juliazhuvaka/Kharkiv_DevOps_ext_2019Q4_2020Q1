@@ -12,8 +12,9 @@
 ![2](https://user-images.githubusercontent.com/58468159/73613628-71b73d80-4600-11ea-8a55-06a9797f1ab0.jpg)
 
 ### Script #3. Using parameters, create a script, the user should enter parameters and the script count them (a+b)/c. I have added option to count fractional numbers
-![script 3](https://user-images.githubusercontent.com/58468159/73613630-74199780-4600-11ea-835a-279a2b587e14.jpg)
-![3](https://user-images.githubusercontent.com/58468159/73613631-75e35b00-4600-11ea-8412-08ea688573fa.jpg)
+![photo_2020-02-04_14-07-47](https://user-images.githubusercontent.com/58468159/73743739-f2d51880-4757-11ea-96e3-88932386f83f.jpg)
+![photo_2020-02-04_14-08-02](https://user-images.githubusercontent.com/58468159/73743740-f2d51880-4757-11ea-8a23-5e98d9ecf7d4.jpg)
+
 
 ### Script #4. The next task is to create a script that asks the user to enter numbers than compare them and show which one is greater. If the user enters 3 or more numbers - show "error" message
 ![script 4](https://user-images.githubusercontent.com/58468159/73613632-7845b500-4600-11ea-9ae3-3934bca905c8.jpg)
