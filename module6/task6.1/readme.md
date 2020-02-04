@@ -12,7 +12,8 @@
 ![6](https://user-images.githubusercontent.com/58468159/73451799-1b809b00-4371-11ea-9369-59a8757d1b70.jpg)
 
 ### In the next task I have to create a list, which consistently adds listing from current and non-current directory to the same file
-![7](https://user-images.githubusercontent.com/58468159/73451801-1d4a5e80-4371-11ea-80ea-99164e1f57bf.jpg)
+![photo_2020-02-03_21-36-40](https://user-images.githubusercontent.com/58468159/73737891-1b571580-474c-11ea-8eb5-e3be0fb5ac03.jpg)
+
 
 ### Task #8 has become first bash challenge, cause I have to create one variable, which contains name and surname, and create complicated command, which should show some text and count number of symbols in name and surname separately
 ![8](https://user-images.githubusercontent.com/58468159/73451807-1facb880-4371-11ea-946f-8b4c47192e75.jpg)
