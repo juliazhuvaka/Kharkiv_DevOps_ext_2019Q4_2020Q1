@@ -16,7 +16,8 @@
 
 
 ### Task #8 has become first bash challenge, cause I have to create one variable, which contains name and surname, and create complicated command, which should show some text and count number of symbols in name and surname separately
-![8](https://user-images.githubusercontent.com/58468159/73451807-1facb880-4371-11ea-946f-8b4c47192e75.jpg)
+![image](https://user-images.githubusercontent.com/58468159/73746426-d4721b80-475d-11ea-845a-efd2474102dd.png)
+
 
 ### Using echo and tabulation shown up name and surname
 ![9](https://user-images.githubusercontent.com/58468159/73451810-22a7a900-4371-11ea-8a02-1fc9077335bc.jpg)
