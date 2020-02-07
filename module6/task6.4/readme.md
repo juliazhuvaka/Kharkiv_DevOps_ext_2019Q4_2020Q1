@@ -1,6 +1,6 @@
 Task 6.4
 
-1. 2 cycles, that asks user to write word "quit"
+1. 2 cycles, that asks a user to write the word "quit"
 
 ![1 1](https://user-images.githubusercontent.com/58468159/74025420-93237b00-49ac-11ea-9806-7a316430755d.jpg)
 
@@ -17,7 +17,7 @@ Task 6.4
 ![2 2](https://user-images.githubusercontent.com/58468159/74025409-91f24e00-49ac-11ea-99e9-ee94b29e3e86.jpg)
 
 
-3. Actions with script from second task: background, foreground, paused, kill
+3. Actions with a script from the second task: background, foreground, paused, kill
 ![3](https://user-images.githubusercontent.com/58468159/74025411-91f24e00-49ac-11ea-9f27-30ae7e36b1b1.jpg)
 
 
@@ -25,7 +25,7 @@ Task 6.4
 ![4](https://user-images.githubusercontent.com/58468159/74025412-91f24e00-49ac-11ea-85f7-2bee86870eca.jpg)
 ![4 1](https://user-images.githubusercontent.com/58468159/74025629-0fb65980-49ad-11ea-9fa4-03b1ab04c60c.jpg)
 
-5. Recieve square number of any amount of numbers, that user gives
+5. Receive a square number of any amount of numbers, that user gives
 
 ![5 1](https://user-images.githubusercontent.com/58468159/74025413-928ae480-49ac-11ea-83e0-fa69520554c3.jpg)
 ![5](https://user-images.githubusercontent.com/58468159/74025414-928ae480-49ac-11ea-904f-85be06c3c49c.jpg)
@@ -34,7 +34,7 @@ Task 6.4
 ![6 1](https://user-images.githubusercontent.com/58468159/74025415-928ae480-49ac-11ea-9d19-ba6e63ef6897.jpg)
 ![6](https://user-images.githubusercontent.com/58468159/74025417-928ae480-49ac-11ea-8ad8-01893e034c84.jpg)
 
-7. Script, that checks new users in /etc/passwd/ and write down information about them to a file
+7. The script, that checks new users in /etc/passwd/ and write down information about them to a file
 ![7 1](https://user-images.githubusercontent.com/58468159/74025418-928ae480-49ac-11ea-8f7a-b4c514c00636.jpg)
 ![7](https://user-images.githubusercontent.com/58468159/74025419-93237b00-49ac-11ea-98f7-114cd1653165.jpg)
 
