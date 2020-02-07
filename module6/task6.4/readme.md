@@ -15,6 +15,8 @@ Task 6.4
 ![3](https://user-images.githubusercontent.com/58468159/74025411-91f24e00-49ac-11ea-9f27-30ae7e36b1b1.jpg)
 renice -n 2 908
 ![4](https://user-images.githubusercontent.com/58468159/74025412-91f24e00-49ac-11ea-85f7-2bee86870eca.jpg)
+![4 1](https://user-images.githubusercontent.com/58468159/74025629-0fb65980-49ad-11ea-9fa4-03b1ab04c60c.jpg)
+
 ![5 1](https://user-images.githubusercontent.com/58468159/74025413-928ae480-49ac-11ea-83e0-fa69520554c3.jpg)
 ![5](https://user-images.githubusercontent.com/58468159/74025414-928ae480-49ac-11ea-904f-85be06c3c49c.jpg)
 ![6 1](https://user-images.githubusercontent.com/58468159/74025415-928ae480-49ac-11ea-9d19-ba6e63ef6897.jpg)
