@@ -1,6 +1,7 @@
 Task 6.4
 
 1. 2 cycles, that asks user to write word "quit"
+
 ![1 1](https://user-images.githubusercontent.com/58468159/74025420-93237b00-49ac-11ea-9806-7a316430755d.jpg)
 
 ![1 11](https://user-images.githubusercontent.com/58468159/74025422-93237b00-49ac-11ea-979b-6a47c0a207ad.jpg)
