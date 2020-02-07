@@ -26,6 +26,7 @@ Task 6.4
 ![4 1](https://user-images.githubusercontent.com/58468159/74025629-0fb65980-49ad-11ea-9fa4-03b1ab04c60c.jpg)
 
 5. Recieve square number of any amount of numbers, that user gives
+
 ![5 1](https://user-images.githubusercontent.com/58468159/74025413-928ae480-49ac-11ea-83e0-fa69520554c3.jpg)
 ![5](https://user-images.githubusercontent.com/58468159/74025414-928ae480-49ac-11ea-904f-85be06c3c49c.jpg)
 
