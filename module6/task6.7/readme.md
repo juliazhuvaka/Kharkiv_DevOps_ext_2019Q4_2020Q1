@@ -22,5 +22,7 @@
 
 ### 6. Show all files that have extensions and delete it (extension)
 
-![6](https://user-images.githubusercontent.com/58468159/74438954-ea758f80-4e73-11ea-805e-e0cc5ae2bb4e.jpg)
-![6 1](https://user-images.githubusercontent.com/58468159/74438953-ea758f80-4e73-11ea-82dd-f89b8939918a.jpg)
+![6 3](https://user-images.githubusercontent.com/58468159/74439481-f9a90d00-4e74-11ea-9c13-347ce205fd20.jpg)
+
+### Lets check
+![7](https://user-images.githubusercontent.com/58468159/74439556-20ffda00-4e75-11ea-86b0-9202b35edb89.jpg)
