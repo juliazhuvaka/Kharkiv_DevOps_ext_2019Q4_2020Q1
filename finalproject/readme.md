@@ -1,14 +1,14 @@
 ## Навигация
 
-[Описание проекта](#Описание проекта)
-[Шаг 1. Создание Telegram бота](#Шаг-1)
-[Шаг 2. Создание Lambda Function](#Шаг-2)
-[Шаг 3. Создание API Gateway](#Шаг-3)
-[Шаг 4. Создание Webhook](#Шаг-4)
-[Шаг 5. Создание кода на Python](#Шаг-5)
-[Terraform. API Gateway](#API-Gateway)
-[Terraform. Lambda Function](#Lambda-Function)
-[Terraform. S3 Bucket](#S3-Bucket)
+* [Описание проекта](#Описание-проекта)
+* [Шаг 1. Создание Telegram бота](#Шаг-1)
+* [Шаг 2. Создание Lambda Function](#Шаг-2)
+* [Шаг 3. Создание API Gateway](#Шаг-3)
+* [Шаг 4. Создание Webhook](#Шаг-4)
+* [Шаг 5. Создание кода на Python](#Шаг-5)
+* [Terraform. API Gateway](#API-Gateway)
+* [Terraform. Lambda Function](#Lambda-Function)
+* [Terraform. S3 Bucket](#S3-Bucket)
 
 ## Описание проекта
 
