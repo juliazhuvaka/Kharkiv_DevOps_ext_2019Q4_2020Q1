@@ -131,8 +131,150 @@ def lambda_handler(event, context):
 1. API Gateway
 Файл, в котором описано создание нового API, присваивается метод, связь с Lambda-функцией, деплой, настройка веб-хука
 
+```terraform 
+provider "aws" {
+   region = "us-east-2"
+ }
+
+resource "aws_api_gateway_rest_api" "terraform_api" {
+  name        = "terraform_api_tg_bot"
+  description = "Terraform Serverless Application"
+}
+
+ resource "aws_api_gateway_resource" "proxy" {
+   rest_api_id = aws_api_gateway_rest_api.terraform_api.id
+   parent_id   = aws_api_gateway_rest_api.terraform_api.root_resource_id
+   path_part   = "{proxy+}"
+}
+
+resource "aws_api_gateway_method" "proxy" {
+   rest_api_id   = aws_api_gateway_rest_api.terraform_api.id
+   resource_id   = aws_api_gateway_resource.proxy.id
+   http_method   = "ANY"
+   authorization = "NONE"
+ }
+
+ resource "aws_api_gateway_integration" "lambda" {
+   rest_api_id = aws_api_gateway_rest_api.terraform_api.id
+   resource_id = aws_api_gateway_method.proxy.resource_id
+   http_method = aws_api_gateway_method.proxy.http_method
+
+   integration_http_method = "POST"
+   type                    = "AWS_PROXY"
+   uri                     = aws_lambda_function.terraform_lambda.invoke_arn
+ }
+
+  resource "aws_api_gateway_method" "proxy_root" {
+   rest_api_id   = aws_api_gateway_rest_api.terraform_api.id
+   resource_id   = aws_api_gateway_rest_api.terraform_api.root_resource_id
+   http_method   = "ANY"
+   authorization = "NONE"
+ }
+
+ resource "aws_api_gateway_integration" "lambda_root" {
+   rest_api_id = aws_api_gateway_rest_api.terraform_api.id
+   resource_id = aws_api_gateway_method.proxy_root.resource_id
+   http_method = aws_api_gateway_method.proxy_root.http_method
+
+   integration_http_method = "POST"
+   type                    = "AWS_PROXY"
+   uri                     = aws_lambda_function.terraform_lambda.invoke_arn
+ }
+
+ 
+ resource "aws_api_gateway_deployment" "terraform_api" {
+   depends_on = [
+     aws_api_gateway_integration.lambda,
+     aws_api_gateway_integration.lambda_root,
+   ]
+
+   rest_api_id = aws_api_gateway_rest_api.terraform_api.id
+   stage_name  = "test"
+ }
+
+
+data "http" "webhook" {
+  url = "https://api.telegram.org/bot${var.bot_token}/setWebHook?url=${aws_api_gateway_deployment.terraform_api.invoke_url}"
+}
+```
+
 2. Lambda function
 В данном документе создаем роль и policy для взаимодействия функции с другими сервисами AWS, указываем где лежит код для лямбды, создаем саму функцию, добавляем Environment variables и добавляем триггер на срабатывание - API Gateway
+
+```terraform
+resource "aws_iam_role" "iam_for_lambda" {
+  name = "iam_for_lambda"
+  assume_role_policy = <<EOF
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Action": "sts:AssumeRole",
+      "Principal": {
+        "Service": "lambda.amazonaws.com"
+      },
+      "Effect": "Allow",
+      "Sid": ""
+    }
+  ]
+}
+EOF
+}
+
+
+resource "aws_iam_policy" "policy" {
+  name        = "policy"
+  policy      = <<EOF
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "*",
+            "Resource": "*"
+        }
+    ]
+}
+EOF
+}
+
+resource "aws_iam_policy_attachment" "test-attach" {
+  name       = "test-attachment"
+  roles      = ["${aws_iam_role.iam_for_lambda.name}"]
+  policy_arn = "${aws_iam_policy.policy.arn}"
+}
+
+
+resource "aws_lambda_function" "terraform_lambda" {
+  s3_bucket = "bucketwithcode"
+  s3_key    = "lambda.zip"
+  function_name = "terraform_lambda_tg_bot"
+  role          = "${aws_iam_role.iam_for_lambda.arn}"
+  handler = "lambda_function.lambda_handler"
+  runtime = "python3.8"
+
+}
+
+  environment {
+    variables = {
+      BOT_ID = ""
+	  VOICE_NAME = "Maxim"
+	  S3_BUCKET_NAME = "bucketname"
+	  START_MESSAGE = "Привет! умею озвучивать текст, который ты мне пишешь:) Попробуй мне что-то написать"
+	  REGION = "us-east-2"
+    }
+  }
+
+resource "aws_lambda_permission" "apigw" {
+   statement_id  = "AllowAPIGatewayInvoke"
+   action        = "lambda:InvokeFunction"
+   function_name = aws_lambda_function.terraform_lambda.function_name
+   principal     = "apigateway.amazonaws.com"
+
+
+   source_arn = "${aws_api_gateway_rest_api.terraform_api.execution_arn}/*/*"
+ }
+```
 
 3. S3 bucket
 Создаем корзину в S3 для загрузки аудио файлов, а также добавляем policy, которая сделает все объекты в корзине публичными
