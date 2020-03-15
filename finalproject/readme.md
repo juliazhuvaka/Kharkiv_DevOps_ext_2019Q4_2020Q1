@@ -123,3 +123,41 @@ def lambda_handler(event, context):
 ```
 
 Как вы могли заметить, в коде отсутствуют уникальные данные пользователя, все они помещены в environment variables для простого использования любым пользователем
+
+
+Следующий шаг - поднятие инфраструктуры, описанной мной, в одно нажатие кнопки или terraform
+
+Для реализации нам потребуется создать 3 tf файла со следующим содержимым:
+1. API Gateway
+Файл, в котором описано создание нового API, присваивается метод, связь с Lambda-функцией, деплой, настройка веб-хука
+
+2. Lambda function
+В данном документе создаем роль и policy для взаимодействия функции с другими сервисами AWS, указываем где лежит код для лямбды, создаем саму функцию, добавляем Environment variables и добавляем триггер на срабатывание - API Gateway
+
+3. S3 bucket
+Создаем корзину в S3 для загрузки аудио файлов, а также добавляем policy, которая сделает все объекты в корзине публичными
+
+```terraform
+resource "aws_s3_bucket" "zhuvakayuliiatg" {
+  bucket = "zhuvakatelegram"
+}
+
+resource "aws_s3_bucket_policy" "zhuvakayuliiatg" {
+  bucket = "${aws_s3_bucket.zhuvakayuliiatg.id}"
+
+  policy = <<POLICY
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PublicReadGetObject",
+      "Action": "s3:GetObject",
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::zhuvakatelegram/*",
+      "Principal": "*"
+    }
+  ]
+}
+POLICY
+}
+```
